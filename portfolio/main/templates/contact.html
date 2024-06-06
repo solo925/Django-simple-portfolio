@@ -4,12 +4,31 @@
 {% block title %}
   Contact Page
 {% endblock %}
+
 {% block extrahead %}
   <link rel="stylesheet" href="{% static 'css/contact.css' %}" />
 {% endblock %}
 
 {% block content %}
-  <p>phone:+254702970055</p>
-  <p>Email:solomononyango925@gmail.com</p>
-  <p>Email:solomon.onyango20@students.dkut.ac.ke</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Phone</h5>
+            <p class="card-text">+254702970055</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Email</h5>
+            <p class="card-text">solomononyango925@gmail.com</p>
+            <p class="card-text">solomon.onyango20@students.dkut.ac.ke</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 {% endblock %}
